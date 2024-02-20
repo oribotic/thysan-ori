@@ -1,11 +1,14 @@
 # Related work
 
-Source: https://arxiv.org/pdf/2206.12691
+Zimmermann, Luca & Stanković, Tino. (2019). Rigid and Flat Foldability of a Degree-Four Vertex in Origami. Journal of Mechanisms and Robotics. 12. 1-18. 10.1115/1.4044737. 
+Source: https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstract/12/1/011004/960558/Rigid-and-Flat-Foldability-of-a-Degree-Four-Vertex
+
 Foschi, R., Hull, T. C., & Ku, J. S. (2022). Explicit kinematic equations for degree-4 rigid origami vertices, Euclidean and non-Euclidean. Physical Review E, 106(5), 055001.
+Source: https://arxiv.org/pdf/2206.12691
 
 Equation 6. used to calculate another folding angle in a rigid-degree-4 origami vertex, 
 
-**inputs**: $\rho_{4}$ dihedral angle of the driving crease, sector angles [$\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}$]
+**inputs**: sector angles [$\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}$] of the degree-4 rigid origami vertex, $\rho_{4}$ dihedral angle of the driving crease, 
 
 **outputs**: $\pm \rho_{1}$
 
