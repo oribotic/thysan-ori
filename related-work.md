@@ -1,7 +1,16 @@
 # Related work
 
+## Rigid Degree-Four Vertex in Origami
+
 Zimmermann, Luca & Stanković, Tino. (2019). Rigid and Flat Foldability of a Degree-Four Vertex in Origami. Journal of Mechanisms and Robotics. 12. 1-18. 10.1115/1.4044737. 
 Source: https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstract/12/1/011004/960558/Rigid-and-Flat-Foldability-of-a-Degree-Four-Vertex
+
+the authors define the concise sector angle conditions with Equation 8. (shown in this paper as Equation @rigid) for rigid degree-four vertices including a _driving crease_. 
+
+(@rigid) $$\mid \alpha_{1} - \alpha_{4} \mid \quad\geq\quad \mid \alpha_{2} - \alpha_{3} \mid$$
+
+
+## Kinematics of Degree-Four Vertex in Origami
 
 Foschi, R., Hull, T. C., & Ku, J. S. (2022). Explicit kinematic equations for degree-4 rigid origami vertices, Euclidean and non-Euclidean. Physical Review E, 106(5), 055001.
 Source: https://arxiv.org/pdf/2206.12691
