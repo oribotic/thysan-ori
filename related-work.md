@@ -7,8 +7,7 @@ Source: https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstra
 
 the authors define the concise sector angle conditions with Equation 8. (shown in this paper as Equation @rigid) for rigid degree-four vertices including a _driving crease_. 
 
-(@rigid) $$\mid \alpha_{1} - \alpha_{4} \mid \quad\geq\quad \mid \alpha_{2} - \alpha_{3} \mid$$
-
+$$\mid \alpha_{1} - \alpha_{4} \mid \quad\geq\quad \mid \alpha_{2} - \alpha_{3} \mid$$
 
 ## Kinematics of Degree-Four Vertex in Origami
 
