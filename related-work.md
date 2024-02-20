@@ -5,7 +5,7 @@ Foschi, R., Hull, T. C., & Ku, J. S. (2022). Explicit kinematic equations for de
 
 Equation 6. used to calculate another folding angle in a rigid-degree-4 origami vertex, 
 
-**outputs** $\rho_{1} from the driving crease $\rho_{4}.
+**outputs** $\rho_{1}$ from the driving crease $\rho_{4}$.
 
 The equation is broken down into small chunks in code:
 
