@@ -16,6 +16,7 @@ $e2 = 4\sin^2(\alpha_{1})\sin^2(\alpha_{3})\tan^2(\frac{\rho_{4}}{2}) - (\cos(\a
 $e3 = \cos(\alpha_{2}) - \cos(\alpha_{1} - \alpha_{3} - \alpha{4})  + (\cos(\alpha_{2}) - \cos(\alpha_{1} + \alpha_{3} - \alpha{4}) )\tan^2(\frac{\rho_{4}}{2})$
 
 $\rho_{+} = e1 \cdot \sqrt{\frac{e2}{e3}}$
+
 $\rho_{-} = -e1 \cdot \sqrt{\frac{e2}{e3}}$
 
 in python:
