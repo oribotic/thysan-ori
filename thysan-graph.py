@@ -47,13 +47,12 @@ def getRigidKinematicAngle (sectorAngles, pDegrees):
     a3 = sectorAngles[2]
     a4 = sectorAngles[3]
     cosa2 = math.cos(a2)
-    l1 = 2*math.sin(a1)*math.sin(a2)*math.tan(p/2)
-    l2 = 4*sin2(a1)*sin2(a3)*tan2(p/2) - (cosa2 - math.cos(a1 - a3 - a4) + (cosa2 - math.cos(a1 + a3 - a4))* tan2(p/2))* (cosa2 - math.cos(a1 + a3 + a4) + (cosa2 - math.cos(a1 - a3 + a4))* tan2(p/2)) 
-    l3 = cosa2 - math.cos(a1 - a3 - a4) + (cosa2 - math.cos(a1 + a3 - a4))* tan2(p/2)
-    halftanP = l1 * math.sqrt(abs(l2))/l3
-    halftanP_ = -l1 * math.sqrt(abs(l2))/l3
+    e1 = 2*math.sin(a1)*math.sin(a2)*math.tan(p/2)
+    e2 = 4*sin2(a1)*sin2(a3)*tan2(p/2) - (cosa2 - math.cos(a1 - a3 - a4) + (cosa2 - math.cos(a1 + a3 - a4))* tan2(p/2))* (cosa2 - math.cos(a1 + a3 + a4) + (cosa2 - math.cos(a1 - a3 + a4))* tan2(p/2)) 
+    e3 = cosa2 - math.cos(a1 - a3 - a4) + (cosa2 - math.cos(a1 + a3 - a4))* tan2(p/2)
+    halftanP = e1 * math.sqrt(abs(e2))/e3
     P = 2*math.atan(halftanP)
-    P_ = 2*math.atan(halftanP_)
+    P_ = -2*math.atan(halftanP)
     return P, P_
 
 def ZimmermanRigidCheck (rigid, basePolygonSides): 
