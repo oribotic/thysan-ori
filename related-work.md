@@ -36,7 +36,7 @@ in python:
 
 ```
 def getRigidKinematicAngle (sectorAngles, pDegrees):
-    # p = angle in degrees
+    # p = angle in radians
     p = math.radians(pDegrees)
     a1 = sectorAngles[0]
     a2 = sectorAngles[1]
