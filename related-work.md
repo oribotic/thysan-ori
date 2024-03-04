@@ -14,7 +14,9 @@ $$\mid \alpha_{1} - \alpha_{4} \mid \quad\geq\quad \mid \alpha_{2} - \alpha_{3} 
 Foschi, R., Hull, T. C., & Ku, J. S. (2022). Explicit kinematic equations for degree-4 rigid origami vertices, Euclidean and non-Euclidean. Physical Review E, 106(5), 055001.
 Source: https://arxiv.org/pdf/2206.12691
 
-Equation 6. used to calculate another folding angle in a rigid-degree-4 origami vertex, 
+Equation 6. used to calculate another folding angle in a rigid-degree-4 origami vertex
+
+$\tan{\frac{\rho_{1}}{2}$
 
 **inputs**: sector angles $[\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}]$ of the degree-4 rigid origami vertex, $\rho_{4}$ dihedral angle of the driving crease, 
 
