@@ -16,7 +16,7 @@ Source: https://arxiv.org/pdf/2206.12691
 
 Equation 6. used to calculate another folding angle in a rigid-degree-4 origami vertex, 
 
-**inputs**: sector angles [$\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}$] of the degree-4 rigid origami vertex, $\rho_{4}$ dihedral angle of the driving crease, 
+**inputs**: sector angles $[\alpha_{1},\alpha_{2},\alpha_{3},\alpha_{4}]$ of the degree-4 rigid origami vertex, $\rho_{4}$ dihedral angle of the driving crease, 
 
 **outputs**: $\pm \rho_{1}$
 
