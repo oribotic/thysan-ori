@@ -41,6 +41,12 @@ $\rho_{-} = -e1 \cdot \sqrt{\frac{e2}{e3}}$
 in python:
 
 ```
+def sin2(a):
+	return math.sin(a)*math.sin(a)
+
+def tan2(a):
+	return math.tan(a)*math.tan(a)
+
 def getRigidKinematicAngle (sectorAngles, pDegrees):
     # p = angle in radians
     p = math.radians(pDegrees)
