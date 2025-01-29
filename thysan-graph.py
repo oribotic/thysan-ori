@@ -197,6 +197,7 @@ def rigid_changed(val):
 
     # zimmerman check
     print ("is this vertex rigid", ZimmermanRigidCheck (rigid_slider.val, poly_slider.val))
+    print (abs(a_slider.val - b_value), abs(a_slider.val - b_value) - c_slider.val)
     fig.canvas.draw_idle()
 
 def a_changed(val):
@@ -241,7 +242,7 @@ b_slider = Slider(b_slider_ax, 'B', 0.0, 100, valinit=40, color="grey")
 b_slider.active = False
 
 c_slider_ax  = fig.add_axes([x1, r3, s_w, s_h], facecolor="k")
-c_slider = Slider(c_slider_ax, 'C', -30, 30, valinit=0, color="blue")
+c_slider = Slider(c_slider_ax, 'C', -100, 100, valinit=0, color="blue")
 
 rigid_slider.on_changed(rigid_changed)
 a_slider.on_changed(a_changed)
